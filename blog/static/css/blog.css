@@ -1,18 +1,18 @@
 h1 a {
     color: #FCA205;
-    font-family: 'Lobster';
+    font-family: 'Montserrat';
 }
 body {
     padding-left: 15px;
 }
 .page-header {
-    background-color: #2D257F;
+    background-color: #2A3133;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 5px 5px 5px 20px;
 }
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 36pt;
+    font-size: 20pt;
     text-decoration: none;
 }
 content {
@@ -20,7 +20,7 @@ content {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', cursive;
 }
 
 .date {
@@ -38,7 +38,7 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 16pt;
     margin-right: 20px;
 }
 

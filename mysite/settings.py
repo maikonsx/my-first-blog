@@ -25,7 +25,7 @@ SECRET_KEY = 'lii+5v^l!w8eiv1l^p!&m8y4hecv9452w)%mk)g5h4r4dwn+oa'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'root-student.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog',
+    'blog'
 ]
 
 MIDDLEWARE = [
@@ -120,3 +120,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'maikonsx@gmail.com'
+EMAIL_HOST_PASSWORD = 'ywunedwznwocslig'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
